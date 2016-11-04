@@ -151,9 +151,9 @@
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Content Include="App_Data\CCMMIS.mdf" />
-    <Content Include="App_Data\CCMMIS_log.ldf">
-      <DependentUpon>CCMMIS.mdf</DependentUpon>
+    <Content Include="App_Data\CCMEIP.mdf" />
+    <Content Include="App_Data\CCMEIP_log.ldf">
+      <DependentUpon>CCMEIP.mdf</DependentUpon>
     </Content>
     <Content Include="Content\css\framework-font.css" />
     <Content Include="Content\css\framework-ui.css" />
