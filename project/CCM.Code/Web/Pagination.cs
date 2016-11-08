@@ -1,23 +1,23 @@
 ﻿/*******************************************************************************
- * Copyright © 2016 CCM.Framework 版权所有
+ * Copyright © 2016 CCM.Framework 版權所有
  * Author: CCM
- * Description: CCM快速开发平台
+ * Description: CCM快速開發平臺
  * Website：http://www.CCM.cn
 *********************************************************************************/
 
 namespace CCM.Code
 {
     /// <summary>
-    /// 分页信息
+    /// 分頁資訊
     /// </summary>
     public class Pagination
     {
         /// <summary>
-        /// 每页行数
+        /// 每頁行數
         /// </summary>
         public int rows { get; set; }
         /// <summary>
-        /// 当前页
+        /// 當前頁
         /// </summary>
         public int page { get; set; }
         /// <summary>
@@ -25,15 +25,15 @@ namespace CCM.Code
         /// </summary>
         public string sidx { get; set; }
         /// <summary>
-        /// 排序类型
+        /// 排序類型
         /// </summary>
         public string sord { get; set; }
         /// <summary>
-        /// 总记录数
+        /// 總記錄數
         /// </summary>
         public int records { get; set; }
         /// <summary>
-        /// 总页数
+        /// 總頁數
         /// </summary>
         public int total
         {
@@ -51,3 +51,4 @@ namespace CCM.Code
         }
     }
 }
+

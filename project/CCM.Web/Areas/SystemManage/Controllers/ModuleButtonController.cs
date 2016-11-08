@@ -1,8 +1,8 @@
 ﻿/*******************************************************************************
- * Copyright © 2016 CCM.Framework 版权所有
- * Author: CCM
- * Description: CCM快速开发平台
- * Website：http://www.CCM.cn
+ * Copyright © 2016 CCM.Framework 版權所有
+ * Author: CCM.MIS
+ * Description: CCM,MIS 快速開發平臺
+ * Website：http://www.ccm3s.com
 *********************************************************************************/
 using CCM.Application.SystemManage;
 using CCM.Code;
@@ -132,7 +132,7 @@ namespace CCM.Web.Areas.SystemManage.Controllers
         public ActionResult SubmitCloneButton(string moduleId, string Ids)
         {
             moduleButtonApp.SubmitCloneButton(moduleId, Ids);
-            return Success("克隆成功。");
+            return Success("複製成功。");
         }
     }
 }

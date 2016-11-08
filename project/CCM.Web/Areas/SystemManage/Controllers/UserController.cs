@@ -1,8 +1,8 @@
 ﻿/*******************************************************************************
- * Copyright © 2016 CCM.Framework 版权所有
- * Author: CCM
- * Description: CCM快速开发平台
- * Website：http://www.CCM.cn
+ * Copyright © 2016 CCM.Framework 版權所有
+ * Author: CCM.MIS
+ * Description: CCM,MIS 快速開發平臺
+ * Website：http://www.ccm3s.com
 *********************************************************************************/
 using CCM.Application.SystemManage;
 using CCM.Code;
@@ -54,7 +54,7 @@ namespace CCM.Web.Areas.SystemManage.Controllers
         public ActionResult DeleteForm(string keyValue)
         {
             userApp.DeleteForm(keyValue);
-            return Success("删除成功。");
+            return Success("刪除成功。");
         }
         [HttpGet]
         public ActionResult RevisePassword()
@@ -68,7 +68,7 @@ namespace CCM.Web.Areas.SystemManage.Controllers
         public ActionResult SubmitRevisePassword(string userPassword, string keyValue)
         {
             userLogOnApp.RevisePassword(userPassword, keyValue);
-            return Success("重置密码成功。");
+            return Success("重置密碼成功。");
         }
         [HttpPost]
         [HandlerAjaxOnly]
@@ -80,7 +80,7 @@ namespace CCM.Web.Areas.SystemManage.Controllers
             userEntity.F_Id = keyValue;
             userEntity.F_EnabledMark = false;
             userApp.UpdateForm(userEntity);
-            return Success("账户禁用成功。");
+            return Success("帳戶禁用成功。");
         }
         [HttpPost]
         [HandlerAjaxOnly]
@@ -92,7 +92,7 @@ namespace CCM.Web.Areas.SystemManage.Controllers
             userEntity.F_Id = keyValue;
             userEntity.F_EnabledMark = true;
             userApp.UpdateForm(userEntity);
-            return Success("账户启用成功。");
+            return Success("帳戶啟用成功。");
         }
 
         [HttpGet]
@@ -102,3 +102,4 @@ namespace CCM.Web.Areas.SystemManage.Controllers
         }
     }
 }
+
