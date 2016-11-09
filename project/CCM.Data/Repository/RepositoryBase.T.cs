@@ -18,7 +18,7 @@ using System.Text.RegularExpressions;
 namespace CCM.Data
 {
     /// <summary>
-    /// 仓储实现
+    /// 倉儲實作
     /// </summary>
     /// <typeparam name="TEntity"></typeparam>
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class,new()

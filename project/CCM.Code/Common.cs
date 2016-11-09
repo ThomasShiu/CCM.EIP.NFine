@@ -1,7 +1,7 @@
 ﻿/*******************************************************************************
- * Copyright © 2016 CCM.Framework 版权所有
+ * Copyright © 2016 CCM.Framework 版權所有
  * Author: CCM
- * Description: CCM快速开发平台
+ * Description: CCM快速開發平臺
  * Website：http://www.CCM.cn
 *********************************************************************************/
 using System;
@@ -12,13 +12,13 @@ using System.Text;
 namespace CCM.Code
 {
     /// <summary>
-    /// 常用公共类
+    /// 常用公共類
     /// </summary>
     public class Common
     {
-        #region Stopwatch计时器
+        #region Stopwatch計時器
         /// <summary>
-        /// 计时器开始
+        /// 計時器開始
         /// </summary>
         /// <returns></returns>
         public static Stopwatch TimerStart()
@@ -29,7 +29,7 @@ namespace CCM.Code
             return watch;
         }
         /// <summary>
-        /// 计时器结束
+        /// 計時器結束
         /// </summary>
         /// <param name="watch"></param>
         /// <returns></returns>
@@ -41,16 +41,16 @@ namespace CCM.Code
         }
         #endregion
 
-        #region 删除数组中的重复项
+        #region 刪除陣列中的重複項
         /// <summary>
-        /// 删除数组中的重复项
+        /// 刪除陣列中的重複項
         /// </summary>
         /// <param name="values"></param>
         /// <returns></returns>
         public static string[] RemoveDup(string[] values)
         {
             List<string> list = new List<string>();
-            for (int i = 0; i < values.Length; i++)//遍历数组成员
+            for (int i = 0; i < values.Length; i++)//遍歷陣列成員
             {
                 if (!list.Contains(values[i]))
                 {
@@ -61,9 +61,9 @@ namespace CCM.Code
         }
         #endregion
 
-        #region 自动生成编号
+        #region 自動生成編號
         /// <summary>
-        /// 表示全局唯一标识符 (GUID)。
+        /// 表示全域唯一識別碼 (GUID)。
         /// </summary>
         /// <returns></returns>
         public static string GuId()
@@ -71,23 +71,23 @@ namespace CCM.Code
             return Guid.NewGuid().ToString();
         }
         /// <summary>
-        /// 自动生成编号  201008251145409865
+        /// 自動生成編號  201008251145409865
         /// </summary>
         /// <returns></returns>
         public static string CreateNo()
         {
             Random random = new Random();
-            string strRandom = random.Next(1000, 10000).ToString(); //生成编号 
+            string strRandom = random.Next(1000, 10000).ToString(); //生成編號 
             string code = DateTime.Now.ToString("yyyyMMddHHmmss") + strRandom;//形如
             return code;
         }
         #endregion
 
-        #region 生成0-9随机数
+        #region 生成0-9亂數
         /// <summary>
-        /// 生成0-9随机数
+        /// 生成0-9亂數
         /// </summary>
-        /// <param name="codeNum">生成长度</param>
+        /// <param name="codeNum">生成長度</param>
         /// <returns></returns>
         public static string RndNum(int codeNum)
         {
@@ -103,23 +103,23 @@ namespace CCM.Code
         }
         #endregion
 
-        #region 删除最后一个字符之后的字符
+        #region 刪除最後一個字元之後的字元
         /// <summary>
-        /// 删除最后结尾的一个逗号
+        /// 刪除最後結尾的一個逗號
         /// </summary>
         public static string DelLastComma(string str)
         {
             return str.Substring(0, str.LastIndexOf(","));
         }
         /// <summary>
-        /// 删除最后结尾的指定字符后的字符
+        /// 刪除最後結尾的指定字元後的字元
         /// </summary>
         public static string DelLastChar(string str, string strchar)
         {
             return str.Substring(0, str.LastIndexOf(strchar));
         }
         /// <summary>
-        /// 删除最后结尾的长度
+        /// 刪除最後結尾的長度
         /// </summary>
         /// <param name="str"></param>
         /// <param name="Length"></param>
@@ -134,3 +134,4 @@ namespace CCM.Code
         #endregion
     }
 }
+

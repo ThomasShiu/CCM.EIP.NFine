@@ -1,9 +1,10 @@
 ﻿/*******************************************************************************
- * Copyright © 2016 CCM.Framework 版权所有
+ * Copyright © 2016 CCM.Framework 版權所有
  * Author: CCM
- * Description: CCM快速开发平台
+ * Description: CCM快速開發平臺
  * Website：http://www.CCM.cn
 *********************************************************************************/
+
 using System;
 
 namespace CCM.Domain

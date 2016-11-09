@@ -112,3 +112,5 @@ D:\Git_Source\CCM.EIP.NFine\project\CCM.Web\bin\zh-Hans\System.Web.WebPages.Razo
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Web\obj\Debug\CCM.Web.csprojResolveAssemblyReference.cache
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Web\obj\Debug\CCM.Web.dll
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Web\obj\Debug\CCM.Web.pdb
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Web\bin\App_Data\CCMEIP.mdf
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Web\bin\App_Data\CCMEIP_log.ldf

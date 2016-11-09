@@ -80,7 +80,7 @@ namespace CCM.Web.Areas.SystemManage.Controllers
             userEntity.F_Id = keyValue;
             userEntity.F_EnabledMark = false;
             userApp.UpdateForm(userEntity);
-            return Success("帳戶禁用成功。");
+            return Success("帳戶停用成功。");
         }
         [HttpPost]
         [HandlerAjaxOnly]

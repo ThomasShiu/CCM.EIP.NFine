@@ -1,0 +1,17 @@
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\CCM.Code.dll
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\CCM.Code.pdb
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\log4net.dll
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\Newtonsoft.Json.dll
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\NPOI.dll
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\NPOI.OOXML.dll
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\NPOI.OpenXml4Net.dll
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\NPOI.OpenXmlFormats.dll
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\log4net.xml
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\Newtonsoft.Json.xml
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\NPOI.xml
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\NPOI.OOXML.xml
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\bin\Release\NPOI.OpenXml4Net.xml
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\obj\Release\CCM.Code.csprojResolveAssemblyReference.cache
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\obj\Release\CCM.Code.dll
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Code\obj\Release\CCM.Code.pdb

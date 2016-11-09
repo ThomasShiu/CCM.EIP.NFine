@@ -15,14 +15,16 @@ namespace CCM.Web.Data
     public class CCMDbContext : DbContext
     {
         public CCMDbContext()
-            : base("IdentityConn")
+            : base("CCMDbContext")
         {
             this.Configuration.AutoDetectChangesEnabled = false;
             this.Configuration.ValidateOnSaveEnabled = false;
             this.Configuration.LazyLoadingEnabled = false;
             this.Configuration.ProxyCreationEnabled = false;
         }
-
+        /// <summary>
+        /// 自動映射實體
+        /// </summary>
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             string assembleFileName = Assembly.GetExecutingAssembly().CodeBase.Replace("CCM.Data.DLL", "CCM.Mapping.DLL").Replace("file:///", "");

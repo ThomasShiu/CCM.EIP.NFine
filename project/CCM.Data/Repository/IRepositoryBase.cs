@@ -13,6 +13,10 @@ using System.Linq.Expressions;
 
 namespace CCM.Data
 {
+    /// <summary>
+    /// 倉儲介面
+    /// </summary>
+    /// <typeparam name="TEntity">實體類型</typeparam>
     public interface IRepositoryBase : IDisposable
     {
         IRepositoryBase BeginTrans();

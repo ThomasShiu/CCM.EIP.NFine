@@ -151,9 +151,12 @@
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Content Include="App_Data\CCMEIP.mdf" />
+    <Content Include="App_Data\CCMEIP.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="App_Data\CCMEIP_log.ldf">
       <DependentUpon>CCMEIP.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\css\framework-font.css" />
     <Content Include="Content\css\framework-ui.css" />
@@ -167,6 +170,7 @@
     <Content Include="Content\img\alipay.jpg" />
     <Content Include="Content\img\alipayimg.png" />
     <Content Include="Content\img\button_pm_close.png" />
+    <Content Include="Content\img\ccm_line.jpg" />
     <Content Include="Content\img\cy-reward-title-bg.jpg" />
     <Content Include="Content\img\loading.gif" />
     <Content Include="Content\img\radio1.jpg" />
@@ -217,18 +221,6 @@
     <Content Include="Content\js\datepicker\skin\whyGreen\datepicker.css" />
     <Content Include="Content\js\datepicker\skin\whyGreen\img.gif" />
     <Content Include="Content\js\datepicker\WdatePicker.js" />
-    <Content Include="Content\js\datepicker\开发包\lang\en.js" />
-    <Content Include="Content\js\datepicker\开发包\lang\zh-cn.js" />
-    <Content Include="Content\js\datepicker\开发包\lang\zh-tw.js" />
-    <Content Include="Content\js\datepicker\开发包\readme.txt" />
-    <Content Include="Content\js\datepicker\开发包\skin\datePicker.gif" />
-    <Content Include="Content\js\datepicker\开发包\skin\datePicker.png" />
-    <Content Include="Content\js\datepicker\开发包\skin\default\datepicker.css" />
-    <Content Include="Content\js\datepicker\开发包\skin\default\img.gif" />
-    <Content Include="Content\js\datepicker\开发包\skin\WdatePicker.css" />
-    <Content Include="Content\js\datepicker\开发包\skin\whyGreen\bg.jpg" />
-    <Content Include="Content\js\datepicker\开发包\skin\whyGreen\datepicker.css" />
-    <Content Include="Content\js\datepicker\开发包\skin\whyGreen\img.gif" />
     <Content Include="Content\js\dialog\dialog.css" />
     <Content Include="Content\js\dialog\dialog.js" />
     <Content Include="Content\js\dialog\img\icon-ext.png" />
@@ -622,7 +614,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\SystemManage\Views\User\Info.cshtml" />
+    <None Include="Properties\PublishProfiles\CCM_EIP_207.pubxml" />
     <None Include="Properties\PublishProfiles\NFine.Framework.Release.pubxml" />
+    <Content Include="Views\Home\Dashboard.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

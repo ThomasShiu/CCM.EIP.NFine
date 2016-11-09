@@ -28,6 +28,11 @@ namespace CCM.Web.Controllers
             return View();
         }
         [HttpGet]
+        public ActionResult Dashboard()
+        {
+            return View();
+        }
+        [HttpGet]
         public ActionResult About()
         {
             return View();
