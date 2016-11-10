@@ -20,7 +20,6 @@ D:\Git_Source\CCM.EIP.NFine\project\NFine.Application\bin\Debug\EntityFramework.
 D:\Git_Source\CCM.EIP.NFine\project\NFine.Application\obj\Debug\CCM.Application.csprojResolveAssemblyReference.cache
 D:\Git_Source\CCM.EIP.NFine\project\NFine.Application\obj\Debug\CCM.Application.dll
 D:\Git_Source\CCM.EIP.NFine\project\NFine.Application\obj\Debug\CCM.Application.pdb
-D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\obj\Debug\CCM.Application.csprojResolveAssemblyReference.cache
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\bin\Debug\CCM.Application.dll
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\bin\Debug\CCM.Application.pdb
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\bin\Debug\CCM.Code.dll
@@ -40,5 +39,6 @@ D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\bin\Debug\Newtonsoft.Json.xm
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\bin\Debug\log4net.xml
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\bin\Debug\NPOI.xml
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\bin\Debug\EntityFramework.xml
+D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\obj\Debug\CCM.Application.csprojResolveAssemblyReference.cache
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\obj\Debug\CCM.Application.dll
 D:\Git_Source\CCM.EIP.NFine\project\CCM.Application\obj\Debug\CCM.Application.pdb

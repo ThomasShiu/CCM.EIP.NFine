@@ -1,0 +1,146 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>平臺介紹</title>
+    <link href="~/Content/css/framework-font.css" rel="stylesheet" />
+    <link href="~/Content/css/framework-ui.css" rel="stylesheet" />
+    <script src="~/Content/js/jquery/jquery-2.1.1.min.js"></script>
+    <link href="~/Content/css/framework-theme.css" rel="stylesheet" />
+    <link href="~/Content/js/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/framework-theme.css" rel="stylesheet" />
+    <link href="~/Content/css/framework-about.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="rows" style="margin-bottom: 1%; border: 1px solid #e6e6e6; overflow: hidden; padding-left: 1px;">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                NFine平臺介紹
+            </div>
+            <div class="panel-body">
+                <p>使用時請務必保留來源，請勿用於違反我國法律的web平臺、如詐騙等非法平臺網站。版權最終解釋權歸《NFine團隊》所有</p>
+                <p>NFine是一套基於ASP.NET MVC+EF6+Bootstrap開發出來的框架，原始程式碼完全開源，可以幫助你解決C#.NET專案68%的重複工作，讓開發人員遠離加班！</p>
+                <p>使用 Apache License 2.0 協定，採用主流框架，容易上手，簡單易學，學習成本低。可完全實現二次開發、基本滿足80%專案需求。</p>
+                <p>可以幫助解決.NET專案70%的重複工作，讓開發更多關注業務邏輯。既能快速提高開發效率，幫助公司節省人力成本，同時又不失靈活性。</p>
+                <p>支援SQLServer、MySQL、Oracle、SQLite、Access 等多資料庫類型。模組化設計，層次結構清晰。內置一系列企業資訊管理的基礎功能。</p>
+                <p>操作許可權控制精密細緻，對所有管理連結都進行許可權驗證，可控制到導航功能表、功能按鈕。</p>
+                <p>資料許可權（精細化資料許可權控制，控制到行級，列表級，表單字段級，實現不同人看不同資料，不同人對同一個頁面操作不同欄位</p>
+                <p>提高開發效率及品質。常用類封裝，日誌、緩存、驗證、字典、檔、郵件、,Excel。等等，相容目前最流行流覽器（IE8+、Chrome、Firefox、360流覽器）</p>
+                <p>適用範圍：可以開發OA、ERP、BPM、CRM、WMS、TMS、MIS、BI、電商平臺後臺、物流管理系統、快遞管理系統、教務管理系統等各類管理軟體。</p>
+            </div>
+        </div>
+    </div>
+    <div class="rows" style="margin-bottom: 1%; border: 1px solid #e6e6e6; overflow: hidden; padding-left: 1px;">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                NFine技術介紹
+            </div>
+            <div class="panel-body" style="overflow: hidden;">
+                <div style="float: left; width: 50%;">
+                    <p>1、前端技術</p>
+                    <p>JS框架：jquery-2.1.1、Bootstrap.js、JQuery UI</p>
+                    <p>CSS框架：Bootstrap v3.3.4（穩定是後臺，UI方面根據需求自己升級改造吧）。</p>
+                    <p>用戶端驗證：jQuery Validation Plugin 1.9.0。</p>
+                    <p>線上編輯器：ckeditor、simditor</p>
+                    <p>上傳文件：Uploadify v3.2.1</p>
+                    <p>動態頁簽：Jerichotab（自己改造）</p>
+                    <p>資料表格：jqGrid、Bootstrap Talbe</p>
+                    <p>對話方塊：layer-v2.3</p>
+                    <p>下拉選擇框：jQuery Select2</p>
+                    <p>樹結構控制項：jQuery zTree、jQuery wdtree</p>
+                    <p>頁面配置：jquery.layout.js 1.4.4</p>
+                    <p>圖表外掛程式：echarts、highcharts</p>
+                    <p>日期控制項： My97DatePicker</p>
+                </div>
+                <div style="float: left; width: 50%;">
+                    <p>2、後端技術</p>
+                    <p>核心框架：ASP.NET MVC5、WEB API</p>
+                    <p>持久層框架：EntityFramework 6.0</p>
+                    <p>定時計畫任務：Quartz.Net組件</p>
+                    <p>安全支持：篩檢程式、Sql注入、請求偽造</p>
+                    <p>服務端驗證：實體模型驗證、自己封裝Validator</p>
+                    <p>緩存框架：微軟自帶Cache、Redis</p>
+                    <p>日誌管理：Log4net、登錄日誌、操作日誌</p>
+                    <p>工具類：NPOI、Newtonsoft.Json、驗證碼、豐富公共類似</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rows" style="margin-bottom: 1%; border: 1px solid #e6e6e6; overflow: hidden; padding-left: 1px;">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                聯繫作者
+            </div>
+            <div class="panel-body">
+                <p>
+                    贊助作者：覺得對你有幫助，請她和一杯咖啡吧
+                    <button type="button" onclick="dashangToggle()" class="btn btn-success btn-xs" style="margin-left: 10px; margin-top: -5px; padding-top: 2px;"><i class="fa fa-rmb" style="padding-right: 5px;"></i>我要打賞</button>
+                </p>
+                <p>
+                    向我提問：歡迎向我提問，由於個人精力有限，並不是每一個問題都會去回答；郵箱地址：
+                    <a href="#">NFine_2016@163.com</a>
+                </p>
+                <p>獲取最新原始程式碼：<a href="http://www.oschina.net/p/nfine" target="_blank">http://www.oschina.net/p/nfine</a>、作者QQ：2717247167、技術交流群：549652099</p>
+            </div>
+        </div>
+    </div>
+    <div class="weixin">
+        <div style="margin-bottom: 5px;">
+            掃描二維碼，添加我的微信號
+        </div>
+        <img src="~/Content/img/weixin_nfine.png" style="width: 150px;" alt="微信號" />
+    </div>
+    <div class="contentpay">
+        <div class="hide_box"></div>
+        <div class="shang_box">
+            <a class="shang_close" href="javascript:void(0)" onclick="dashangToggle()" title="關閉">
+                <img src="~/Content/img/button_pm_close.png" alt="取消" />
+            </a>
+            <div class="shang_tit">
+                <p>感謝您的支持，我會繼續努力的!</p>
+            </div>
+            <div class="shang_payimg">
+                <img src="~/Content/img/weipayimg.png" alt="掃碼支持" title="掃一掃" />
+            </div>
+            <div class="pay_explain">掃碼打賞，你說多少就多少</div>
+            <div class="shang_payselect">
+                <div class="pay_item checked" data-id="weipay">
+                    <span class="radiobox"></span>
+                    <span class="pay_logo">
+                        <img src="~/Content/img/wechat.jpg" alt="微信" />
+                    </span>
+                </div>
+                <div class="pay_item" data-id="alipay">
+                    <span class="radiobox"></span>
+                    <span class="pay_logo">
+                        <img src="~/Content/img/alipay.jpg" alt="支付寶" />
+                    </span>
+                </div>
+            </div>
+            <div class="shang_info">
+                <p>打開<span id="shang_pay_txt">支付寶</span>掃一掃，即可進行掃碼打賞哦</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(".pay_item").click(function () {
+                $(this).addClass('checked').siblings('.pay_item').removeClass('checked');
+                var dataid = $(this).attr('data-id');
+                $(".shang_payimg img").attr("src", "/Content/img/" + dataid + "img.png");
+                $("#shang_pay_txt").text(dataid == "alipay" ? "支付寶" : "微信");
+            });
+        });
+        function dashangToggle() {
+            $(".hide_box").fadeToggle();
+            $(".shang_box").fadeToggle();
+        }
+    </script>
+</body>
+</html>
+

@@ -15,7 +15,7 @@ namespace CCM.Web.Data
     public class CCMDbContext : DbContext
     {
         public CCMDbContext()
-            : base("CCMDbContext")
+            : base("IdentityConn")
         {
             this.Configuration.AutoDetectChangesEnabled = false;
             this.Configuration.ValidateOnSaveEnabled = false;

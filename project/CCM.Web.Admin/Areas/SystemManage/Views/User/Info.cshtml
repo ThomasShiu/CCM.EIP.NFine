@@ -1,0 +1,139 @@
+﻿@{
+    ViewBag.Title = "Info";
+    Layout = "~/Views/Shared/_Index.cshtml";
+}
+<script>
+    $(function () {
+        $('.wrapper').height($(window).height() - 11);
+    })
+</script>
+<div class="wrapper">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#a" data-toggle="tab">基本資訊</a></li>
+        <li><a href="#b" data-toggle="tab">註冊資訊</a></li>
+        <li><a href="#c" data-toggle="tab">安全驗證</a></li>
+        <li><a href="#c" data-toggle="tab">系統日誌</a></li>
+        <li><a href="#c" data-toggle="tab">個性化設置</a></li>
+    </ul>
+    <div class="tab-content" style="padding-top: 5px;">
+        <div id="a" class="tab-pane active" style="padding: 15px;">
+            <ul class="pop-list">
+                <li>
+                    <label>帳戶</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>姓名</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>性別</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>出生</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>公司</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>部門</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>角色</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>崗位</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>自我介紹</label>
+                    <textarea class="form-control" style="height: 60px;"></textarea>
+                </li>
+                <li class="line">
+                    <h5><span>聯繫方式</span></h5>
+                </li>
+                <li>
+                    <label>手機號碼</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>電子郵箱</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>微信號</label>
+                    <input type="text" class="form-control" />
+                </li>
+            </ul>
+        </div>
+        <div id="b" class="tab-pane" style="padding: 15px;">
+            <ul class="pop-list">
+                <li>
+                    <label>帳戶</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>密碼</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>第一次存取時間</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>上一次存取時間</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>最後修改密碼時間</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>登錄時間</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>登錄次數</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>帳戶類型</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li class="line">
+                    <h5><span>修改密碼</span></h5>
+                </li>
+                <li>
+                    <label>舊密碼</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>新密碼</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <label>確認新密碼</label>
+                    <input type="text" class="form-control" />
+                </li>
+                <li>
+                    <div style="padding-left: 115px;">
+                        <a class="btn btn-primary" onclick="btn_add()"><i class="fa fa-save" style="margin-right:5px;"></i>確認修改</a>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+        <div id="c" class="tab-pane" style="padding-right: 15px;">
+            3
+        </div>
+        <div id="d" class="tab-pane" style="padding-right: 15px;">
+            4
+        </div>
+    </div>
+</div>
+
